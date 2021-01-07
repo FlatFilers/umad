@@ -12,11 +12,11 @@
 	<array>
 		<string>/Library/umad/Resources/umad</string>
 		<!-- Cutoff Date -->
-		<!--<string>--cutoffdate</string> -->
-		<!--<string>2018-12-31-17:00</string> -->
+		<string>--cutoffdate</string> -->
+		<string>2021-01-15-23:00</string>
 		<!-- Profile Identifier -->
 		<!--<string>--profileidentifier</string> -->
-		<!--<string>B68ABF1E-70E2-43B0-8300-AE65F9AFA330</string> -->
+		<!-- <string>B68ABF1E-70E2-43B0-8300-AE65F9AFA330</string> -->
 		<!-- -->
 		<!-- Logos -->
 		<!--<string>--logopath</string> -->
@@ -27,8 +27,8 @@
 		<!--<string>/Some/Custom/Path/uamdm_ss.png</string> -->
 		<!-- -->
 		<!-- Text-->
-		<!--<string>--duedatetext</string> -->
-		<!--<string>MDM Enrollment is required (No Restart Required)</string> -->
+		<string>--duedatetext</string>
+		<string>MDM Enrollment is required by 6PM EST on Friday, January 15th, 2021 (No Restart Required)</string>
 		<!--<string>--depfailuretext</string> -->
 		<!--<string>Not getting this notification?</string> -->
 		<!--<string>--depfailuresubtext</string> -->
@@ -61,8 +61,8 @@
 		<!--<string>Please go to System Preferences -> Profiles, click on the Device Enrollment profile and click on the approve button.</string> -->
 		<!-- -->
 		<!-- URLs -->
-		<!--<string>--manualenrollmenturl</string> -->
-		<!--<string>https://apple.com</string> -->
+		<string>--manualenrollmenturl</string>
+		<string>https://flatfile.jamfcloud.com/enroll</string>
 		<!--<string>--moreinfourl</string> -->
 		<!--<string>https://google.com</string> -->
 		<!-- -->
@@ -83,7 +83,7 @@
 		<!--<string>5</string> -->
 		<!-- -->
 		<!-- Action_True -->
-		<!--<string>--enableenrollmentbutton</string> -->
+	  <string>--enableenrollmentbutton</string>
 		<!--<string>--notimer</string> -->
 	</array>
 	<key>RunAtLoad</key>
