@@ -15,9 +15,9 @@
 # limitations under the License.
 
 # If you change your daemon and agent file names, update the following two lines
-launch_agent_plist_name='com.erikng.umad'
-launch_daemon_dep_plist_name='com.erikng.umad.check_dep_record'
-launch_daemon_nag_plist_name='com.erikng.umad.trigger_nag'
+launch_agent_plist_name='io.flatfile.umad'
+launch_daemon_dep_plist_name='io.flatfile.umad.check_dep_record'
+launch_daemon_nag_plist_name='io.flatfile.umad.trigger_nag'
 
 # Base paths
 launch_agent_base_path='Library/LaunchAgents/'

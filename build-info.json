@@ -1,10 +1,14 @@
 {
     "distribution_style": true,
-    "identifier": "com.erikng.umad",
+    "identifier": "io.flatfile.umad",
     "install_location": "/",
     "name": "umad-${version}.pkg",
     "ownership": "recommended",
     "postinstall_action": "none",
     "suppress_bundle_relocation": true,
-    "version": "2.0"
+    "version": "2.0",
+    "signing_info": {
+        "identity": "Developer ID Installer: Robert Trencheny (UTQFCBPQRF)",
+        "timestamp": true
+    }
 }
